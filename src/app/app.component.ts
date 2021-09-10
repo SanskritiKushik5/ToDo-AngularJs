@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { setTimeout } from 'timers';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +7,5 @@ import { setTimeout } from 'timers';
 })
 export class AppComponent {
   title = 'todo-app';
-  constructor(){
-    // setTimeout(() => {
-    //   this.title = "Changed title"
-    // }, 2000);
-  }
+  
 }
